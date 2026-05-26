@@ -1,0 +1,104 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title></title>
+  <meta name="Author" content="Adela Sobotkova">
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="2685.2">
+  <style type="text/css">
+    p.p3 {margin: 0.0px 0.0px 10.0px 0.0px; font: 14.0px 'Helvetica Neue'; color: #262626; -webkit-text-stroke: #262626}
+    p.p7 {margin: 0.0px 0.0px 0.0px 0.0px; font: 13.0px Courier; color: #262626; -webkit-text-stroke: #262626; background-color: #f2f2f2}
+    p.p8 {margin: 0.0px 0.0px 0.0px 0.0px; font: 13.0px Courier; color: #262626; -webkit-text-stroke: #262626; background-color: #f2f2f2; min-height: 16.0px}
+    li.li5 {margin: 0.0px 0.0px 0.0px 0.0px; font: 14.0px 'Helvetica Neue'; color: #262626; -webkit-text-stroke: #262626}
+    li.li6 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.6px Courier; color: #262626; -webkit-text-stroke: #262626}
+    span.s1 {font-kerning: none}
+    span.s2 {font: 12.6px Courier; font-kerning: none; background-color: rgba(0, 0, 0, 0.039)}
+    span.s3 {-webkit-text-stroke: 0px #000000}
+    span.s4 {background-color: rgba(0, 0, 0, 0.039); -webkit-text-stroke: 0px #000000}
+    span.s5 {font-kerning: none; background-color: rgba(0, 0, 0, 0.039)}
+    ol.ol1 {list-style-type: decimal}
+    ul.ul1 {list-style-type: disc}
+  </style>
+</head>
+<body>
+<h1 style="margin: 0.0px 0.0px 10.0px 0.0px; font: 38.0px 'Helvetica Neue'; color: #262626; -webkit-text-stroke: #262626"><span class="s1">Danish Kings</span></h1>
+<h4 style="margin: 0.0px 0.0px 10.0px 0.0px; font: 18.0px 'Helvetica Neue'; color: #262626; -webkit-text-stroke: #262626"><span class="s1">Adela Sobotkova</span></h4>
+<h4 style="margin: 0.0px 0.0px 10.0px 0.0px; font: 18.0px 'Helvetica Neue'; color: #262626; -webkit-text-stroke: #262626"><span class="s1">2025-01-10</span></h4>
+<p class="p3"><span class="s1">The task here is to load your Danish Monarchs csv into R using the </span><span class="s2">tidyverse</span><span class="s1"> toolkit, calculate and explore the kings’ duration of reign with pipes </span><span class="s2">%&gt;%</span><span class="s1"> in </span><span class="s2">dplyr</span><span class="s1"> and plot it over time.</span></p>
+<h2 style="margin: 0.0px 0.0px 10.0px 0.0px; font: 30.0px 'Helvetica Neue'; color: #262626; -webkit-text-stroke: #262626"><span class="s1">Load the kings</span></h2>
+<p class="p3"><span class="s1">Make sure to first create an </span><span class="s2">.Rproj</span><span class="s1"> workspace with a </span><span class="s2">data/</span><span class="s1"> folder where you place either your own dataset or the provided </span><span class="s2">kings.csv</span><span class="s1"> dataset.</span></p>
+<ol class="ol1">
+  <li class="li5"><span class="s3"></span><span class="s1">Look at the dataset that are you loading and check what its columns are separated by? (hint: open it in plain text editor to see)</span></li>
+</ol>
+<p class="p3"><span class="s1">List what is the</span></p>
+<p class="p3"><span class="s1">separator:____,___</span></p>
+<ol class="ol1">
+  <li class="li5"><span class="s3"></span><span class="s1">Create a </span><span class="s2">kings</span><span class="s1"> object in R with the different functions below and inspect the different outputs.</span></li>
+</ol>
+<ul class="ul1">
+  <li class="li6"><span class="s4"></span><span class="s5">read.csv()</span></li>
+  <li class="li6"><span class="s4"></span><span class="s5">read_csv()</span></li>
+  <li class="li6"><span class="s4"></span><span class="s5">read.csv2()</span></li>
+  <li class="li6"><span class="s4"></span><span class="s5">read_csv2()</span></li>
+</ul>
+<p class="p7"><span class="s1"># FILL IN THE CODE BELOW and review the outputs</span></p>
+<p class="p7"><span class="s1">kings1 &lt;- read.csv("data/_______")</span></p>
+<p class="p8"><span class="s1"></span><br></p>
+<p class="p7"><span class="s1">kings2 &lt;- read_csv("data/_______")</span></p>
+<p class="p8"><span class="s1"></span><br></p>
+<p class="p7"><span class="s1">kings3 &lt;- read.csv2("data/_______")</span></p>
+<p class="p8"><span class="s1"></span><br></p>
+<p class="p7"><span class="s1">kings4 &lt;- read_csv2( "data/_______")</span></p>
+<p class="p3"><span class="s1">Answer: 1. Which of these functions is a </span><span class="s2">tidyverse</span><span class="s1"> function? Read data with it below into a </span><span class="s2">kings</span><span class="s1"> object 2. What is the result of running </span><span class="s2">class()</span><span class="s1"> on the </span><span class="s2">kings</span><span class="s1"> object created with a tidyverse function. 3. How many columns does the object have when created with these different functions? 4. Show the dataset so that we can see how R interprets each column</span></p>
+<p class="p7"><span class="s1"># COMPLETE THE BLANKS BELOW WITH YOUR CODE, then turn the 'eval' flag in this chunk to TRUE.</span></p>
+<p class="p8"><span class="s1"></span><br></p>
+<p class="p7"><span class="s1">kings &lt;- _____</span></p>
+<p class="p8"><span class="s1"></span><br></p>
+<p class="p7"><span class="s1">class(kings)</span></p>
+<p class="p8"><span class="s1"></span><br></p>
+<p class="p8"><span class="s1"></span><br></p>
+<p class="p7"><span class="s1">____(kings)</span></p>
+<p class="p8"><span class="s1"></span><br></p>
+<p class="p8"><span class="s1"></span><br></p>
+<p class="p7"><span class="s1">____(kings)</span></p>
+<h2 style="margin: 0.0px 0.0px 10.0px 0.0px; font: 30.0px 'Helvetica Neue'; color: #262626; -webkit-text-stroke: #262626"><span class="s1">Calculate the duration of reign for all the kings in your table</span></h2>
+<p class="p3"><span class="s1">You can calculate the duration of reign in years with </span><span class="s2">mutate</span><span class="s1"> function by subtracting the equivalents of your </span><span class="s2">startReign</span><span class="s1"> from </span><span class="s2">endReign</span><span class="s1"> columns and writing the result to a new column called </span><span class="s2">duration</span><span class="s1">. But first you need to check a few things:</span></p>
+<ul class="ul1">
+  <li class="li5"><span class="s3"></span><span class="s1">Is your data messy? Fix it before re-importing to R</span></li>
+  <li class="li5"><span class="s3"></span><span class="s1">Do your start and end of reign columns contain NAs? Choose the right strategy to deal with them: </span><span class="s2">na.omit()</span><span class="s1">, </span><span class="s2">na.rm=TRUE</span><span class="s1">, </span><span class="s2">!is.na()</span></li>
+</ul>
+<p class="p3"><span class="s1">Create a new column called </span><span class="s2">duration</span><span class="s1"> in the kings dataset, utilizing the </span><span class="s2">mutate()</span><span class="s1"> function from tidyverse. Check with your group to brainstorm the options.</span></p>
+<p class="p7"><span class="s1"># YOUR CODE</span></p>
+<h2 style="margin: 0.0px 0.0px 10.0px 0.0px; font: 30.0px 'Helvetica Neue'; color: #262626; -webkit-text-stroke: #262626"><span class="s1">Calculate the average duration of reign for all rulers</span></h2>
+<p class="p3"><span class="s1">Do you remember how to calculate an average on a vector object? If not, review the last two lessons and remember that a column is basically a vector. So you need to subset your </span><span class="s2">kings</span><span class="s1"> dataset to the </span><span class="s2">duration</span><span class="s1"> column. If you subset it as a vector you can calculate average on it with </span><span class="s2">mean()</span><span class="s1"> base-R function. If you subset it as a tibble, you can calculate average on it with </span><span class="s2">summarize()</span><span class="s1"> tidyverse function. Try both ways!</span></p>
+<ul class="ul1">
+  <li class="li5"><span class="s3"></span><span class="s1">You first need to know how to select the relevant </span><span class="s2">duration</span><span class="s1"> column. What are your options?</span></li>
+  <li class="li5"><span class="s3"></span><span class="s1">Is your selected </span><span class="s2">duration</span><span class="s1"> column a tibble or a vector? The </span><span class="s2">mean()</span><span class="s1"> function can only be run on a vector. The </span><span class="s2">summarize()</span><span class="s1"> function works on a tibble.</span></li>
+  <li class="li5"><span class="s3"></span><span class="s1">Are you getting an error that there are characters in your column? Coerce your data to numbers with </span><span class="s2">as.numeric()</span><span class="s1">.</span></li>
+  <li class="li5"><span class="s3"></span><span class="s1">Remember to handle NAs: </span><span class="s2">mean(X, na.rm=TRUE)</span></li>
+</ul>
+<p class="p7"><span class="s1"># YOUR CODE</span></p>
+<h2 style="margin: 0.0px 0.0px 10.0px 0.0px; font: 30.0px 'Helvetica Neue'; color: #262626; -webkit-text-stroke: #262626"><span class="s1">How many and which kings enjoyed a longer-than-average duration of reign?</span></h2>
+<p class="p3"><span class="s1">You have calculated the average duration above. Use it now to </span><span class="s2">filter()</span><span class="s1"> the </span><span class="s2">duration</span><span class="s1"> column in </span><span class="s2">kings</span><span class="s1"> dataset. Display the result and also count the resulting rows with </span><span class="s2">count()</span></p>
+<p class="p7"><span class="s1"># YOUR CODE</span></p>
+<h2 style="margin: 0.0px 0.0px 10.0px 0.0px; font: 30.0px 'Helvetica Neue'; color: #262626; -webkit-text-stroke: #262626"><span class="s1">How many days did the three longest-ruling monarchs rule?</span></h2>
+<ul class="ul1">
+  <li class="li5"><span class="s3"></span><span class="s1">Sort kings by reign </span><span class="s2">duration</span><span class="s1"> in the descending order. Select the three longest-ruling monarchs with the </span><span class="s2">slice()</span><span class="s1"> function</span></li>
+  <li class="li5"><span class="s3"></span><span class="s1">Use </span><span class="s2">mutate()</span><span class="s1"> to create </span><span class="s2">Days</span><span class="s1"> column where you calculate the total number of days they ruled</span></li>
+  <li class="li5"><span class="s3"></span><span class="s1">BONUS: consider the transition year (with 366 days) in your calculation!</span></li>
+</ul>
+<p class="p7"><span class="s1"># YOUR CODE</span></p>
+<h2 style="margin: 0.0px 0.0px 10.0px 0.0px; font: 30.0px 'Helvetica Neue'; color: #262626; -webkit-text-stroke: #262626"><span class="s1">Challenge: Plot the kings’ duration of reign through time</span></h2>
+<p class="p3"><span class="s1">What is the long-term trend in the duration of reign among Danish monarchs? How does it relate to the historical violence trends ?</span></p>
+<ul class="ul1">
+  <li class="li5"><span class="s3"></span><span class="s1">Try to plot the duration of reign column in </span><span class="s2">ggplot</span><span class="s1"> with </span><span class="s2">geom_point()</span><span class="s1"> and </span><span class="s2">geom_smooth()</span></li>
+  <li class="li5"><span class="s3"></span><span class="s1">In order to peg the duration (which is between 1-99) somewhere to the x axis with individual centuries, I recommend creating a new column </span><span class="s2">midyear</span><span class="s1"> by adding to </span><span class="s2">startYear</span><span class="s1"> the product of </span><span class="s2">endYear</span><span class="s1"> minus the </span><span class="s2">startYear</span><span class="s1"> divided by two (</span><span class="s2">startYear + (endYear-startYear)/2</span><span class="s1">).</span></li>
+  <li class="li5"><span class="s3"></span><span class="s1">Now you can plot the kings dataset, plotting </span><span class="s2">midyear</span><span class="s1"> along the x axis and </span><span class="s2">duration</span><span class="s1"> along y axis</span></li>
+  <li class="li5"><span class="s3"></span><span class="s1">BONUS: add a title, nice axis labels to the plot and make the theme B&amp;W and font bigger to make it nice and legible!</span></li>
+</ul>
+<p class="p7"><span class="s1"># YOUR CODE</span></p>
+<p class="p3"><span class="s1">And to submit this rmarkdown, knit it into html. But first, clean up the code chunks, adjust the date, rename the author and change the </span><span class="s2">eval=FALSE</span><span class="s1"> flag to </span><span class="s2">eval=TRUE</span><span class="s1"> so your script actually generates an output. Well done!</span></p>
+</body>
+</html>
